@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*,
+body {
+  margin: 0;
+  font-family: "Roboto Regular";
+  font-weight: 700;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 2.5rem;
+}
+
+h2 {
+  color: #fa83be;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#banner {
+  background-image: url(http://zelus.pinsupreme.com/wp-content/uploads/2018/03/Hugs-for-Mom-542948542_5760x3840-1600x1067.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 40%);
+  font-size: 5rem;
+}
+
+.card {
+  box-shadow: 0 4px 21px 0 rgb(205 223 227 / 50%);
+}
